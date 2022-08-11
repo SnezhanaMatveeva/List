@@ -6,17 +6,7 @@ public class Main {
     public static Scanner scanner = new Scanner(System.in);
     public static List<String> list = new ArrayList<>();
 
-    static {
-        list.add("Чай");
-        list.add("Хлеб");
-        list.add("Молоко");
-        list.add("Хлебные сушки");
-        list.add("Морковь");
-        list.add("Родной хлебушек");
-    }
-
     public static void main(String[] args) {
-
         while (true) {
             System.out.println("Выберите номер операции:");
             System.out.println("1.добавить товар");
